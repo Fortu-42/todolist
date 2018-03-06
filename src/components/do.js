@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/do.css';
+import FlipMove from 'react-flip-move';
 
 
 class Do extends Component{
@@ -133,9 +134,13 @@ class Do extends Component{
         return(
             <div className="allTasks">
                 <ul className="allItems">
+
+                <FlipMove duration={270} easing="ease-out">
                     {this.renderItems()}
-                
+                </FlipMove>
+                <FlipMove duration={270} easing="ease-out">
                     {this.renderDoneItems()}
+                </FlipMove>
                 
                    
                 </ul>

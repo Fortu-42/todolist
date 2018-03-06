@@ -1,0 +1,60 @@
+.allItems{
+    list-style: none;
+    padding-left: 0;
+    width: 250px
+}
+
+.listItem{
+    color: #333;
+    background-color: rgba(255,255,255,.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px
+}
+
+.itemText{
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.textInput{
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 165px;
+}
+
+
+.listItemFinished{
+    color: #333;
+    background-color: rgba(60, 221, 54, 0.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px
+}
+
+.buttonItem{
+    padding: 10px;
+    font-size: 14px;
+    margin: 5px;
+    margin-right: 0px;
+    color: #FFF;
+    border-radius: 3px;
+}
+
+.finishButton{
+    background-color: rgb(60, 221, 54);
+    border: 2px solid rgb(60, 221, 54);
+}
+
+.removeButton{
+    background-color: rgb(221, 54, 54);
+    border: 2px solid rgb(221, 54, 54);
+}
+
+.unfinishedButton{
+    background-color: rgb(221, 218, 54);
+    border: 2px solid rgb(221, 218, 54);
+}
